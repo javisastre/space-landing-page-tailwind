@@ -7,7 +7,9 @@ module.exports = {
       colors: {
         "fucsia": "#0000FF",
       },
-      fontFamily: {},
+      fontFamily: {
+        sans: ["Raleway", ...defaultTheme.fontFamily.sans],
+      },
     },
   },
   plugins: [],
