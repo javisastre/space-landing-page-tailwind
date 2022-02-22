@@ -18,10 +18,15 @@
     <link href="/output.css" rel="stylesheet" />
   </head>
   <body>
-    <nav class="bg-[#19050A]/50">
-      <div class="container mx-auto flex justify-between text-xs text-white">
-        <img src="/imgs/navlogo.png" alt="" Rocketeer logo />
-        <div class="flex items-center gap-6">
+    <!--     -->
+    <!-- NAV -->
+    <!--     -->
+    <nav class="fixed w-full bg-black/30">
+      <div
+        class="container mx-auto flex h-10 items-center justify-between text-xs text-white"
+      >
+        <img src="/imgs/navlogo.png" alt="Rocketeer logo" class="h-6" />
+        <div class="flex gap-6">
           <div>Home</div>
           <div>About us</div>
           <div>View Product</div>
@@ -29,5 +34,41 @@
         </div>
       </div>
     </nav>
+
+    <!--      -->
+    <!-- MAIN -->
+    <!--      -->
+
+    <main
+      class="bg-gradient-to-r from-[#5A2418] via-[#09060B] to-[#09060B] text-white"
+    >
+      <div class="container mx-auto flex items-center">
+        <div class="mr-10">
+          <h1 class="mb-6 font-light md:text-7xl">
+            The future is <span class="font-medium">now</span>
+          </h1>
+          <p class="mb-14 text-xs">
+            Rocketeer helmets is a visionary enterprise that is trying to
+            improve your health by building modern and comfortable helmets for
+            you.
+          </p>
+          <p class="mb-2 text-[8px]">
+            Enter your email to get the latest news:
+          </p>
+          <div class="flex h-6">
+            <input
+              type="email"
+              placeholder="Enter your email here"
+              class="py-auto mr-6 grow rounded-md bg-red-600/20 px-4 text-[10px] placeholder:text-[10px] focus:outline-none focus:ring-red-700"
+            /><button class="grow-0 rounded-md bg-cyan-700/50 px-10 text-xs">
+              Submit
+            </button>
+          </div>
+        </div>
+        <div>
+          <img src="./imgs/hero1.png" alt="Astronaut" />
+        </div>
+      </div>
+    </main>
   </body>
 </html>
