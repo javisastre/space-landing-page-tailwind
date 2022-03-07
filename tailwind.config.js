@@ -5,7 +5,8 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        "fucsia": "#0000FF",
+        "corporate-orange": "#5A2418",
+        "corporate-dark": "#09060B",
       },
       fontFamily: {
         sans: ["Raleway", ...defaultTheme.fontFamily.sans],
